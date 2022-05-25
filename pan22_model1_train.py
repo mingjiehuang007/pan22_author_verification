@@ -192,7 +192,7 @@ def build_bert_model_1(config_path,checkpoint_path):
 
 
 maxlen = 256     # 原256
-batch_size = 4  # 原16
+batch_size = 16  # 原16
 
 
 config_path = r'D:\NLP\models\BERT\cased_L-12_H-768_A-12\bert_config.json'
@@ -229,7 +229,6 @@ if __name__ == '__main__':
     truth_path = r'D:\NLP\数据集\PAN2022数据集\process_data\new_traindata_truth.jsonl'
 
     data = random_(get_data_segments(truth_path, text_path))
-    data = data[:10]
     train_data_len = int(len(data) * 0.7)
 
     train_generator = data_generator(data[:train_data_len], batch_size)
