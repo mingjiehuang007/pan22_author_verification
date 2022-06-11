@@ -8,7 +8,7 @@
 #### bert4keras 0.11.3
 
 ### 文件夹说明
-1. 2021为2021年作者识别方案  
+1. 2021为2021年作者识别方案
 2. baseline为2022年clef组织方提供的两个baseline算法，以及评价代码      
 3. proposal 1~5是不同的方案  
 4. test中为将pytorch权重文件转换为tensorflow权重文件的代码  
