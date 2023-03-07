@@ -1,6 +1,9 @@
 # pan22_author_verification
 ### 代码原论文：Authorship verification Based On Fully Interacted Text Segments 
-### 论文链接：https://ceur-ws.org/Vol-3180/paper-201.pdf
+### 论文链接
+https://ceur-ws.org/Vol-3180/paper-201.pdf
+### clef2022-PAN作者识别链接
+https://pan.webis.de/clef22/pan22-web/author-identification.html
 
 ### 运行环境
 #### python 3.7.9
